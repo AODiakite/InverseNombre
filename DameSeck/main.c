@@ -8,7 +8,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-const int sizeMax=20;
 
 //allocation Dynamique de tableau
 int * TabEntier(int N)
@@ -24,7 +23,7 @@ int * TabEntier(int N)
     return T-1;
 }
 
-//Nombre de chiffre d,un nombre quelconque
+//Nombre de chiffre d'un nombre quelconque
 int nombreChiffres ( int nombre )
 {
     int i = 1;
